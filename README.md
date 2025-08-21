@@ -116,5 +116,10 @@ Table: `public.stocks`
 ### Security
 - `.env` is ignored by git. Do not commit secrets.
 
+### Screenshots
+![Airflow UI](docs/images/airflow-ui.png)
+
+![Airflow DAG](docs/images/airflow-dag.png)
+
 ### License
 See `LICENSE`.
