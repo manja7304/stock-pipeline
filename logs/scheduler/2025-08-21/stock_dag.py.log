@@ -798,3 +798,31 @@
 [2025-08-21T10:27:21.753+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:27:21.753+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2025-08-21T10:27:21.788+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:27:21.788+0000] {dag.py:3696} INFO - Setting next_dagrun for stock_fetch_pipeline to 2025-08-21T10:00:00+00:00, run_after=2025-08-21T11:00:00+00:00
 [2025-08-21T10:27:21.803+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_dag.py took 0.132 seconds
+[2025-08-21T10:27:52.116+0000] {processor.py:157} INFO - Started process (PID=575) to work on /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:27:52.118+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_dag.py for tasks to queue
+[2025-08-21T10:27:52.119+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:27:52.119+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:27:52.151+0000] {processor.py:839} INFO - DAG(s) dict_keys(['stock_fetch_pipeline']) retrieved from /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:27:52.196+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:27:52.196+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-08-21T10:27:52.216+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:27:52.215+0000] {dag.py:3696} INFO - Setting next_dagrun for stock_fetch_pipeline to 2025-08-21T10:00:00+00:00, run_after=2025-08-21T11:00:00+00:00
+[2025-08-21T10:27:52.229+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_dag.py took 0.118 seconds
+[2025-08-21T10:28:22.601+0000] {processor.py:157} INFO - Started process (PID=580) to work on /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:28:22.602+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_dag.py for tasks to queue
+[2025-08-21T10:28:22.605+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:28:22.603+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:28:22.642+0000] {processor.py:839} INFO - DAG(s) dict_keys(['stock_fetch_pipeline']) retrieved from /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:28:22.681+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:28:22.681+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-08-21T10:28:22.702+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:28:22.702+0000] {dag.py:3696} INFO - Setting next_dagrun for stock_fetch_pipeline to 2025-08-21T10:00:00+00:00, run_after=2025-08-21T11:00:00+00:00
+[2025-08-21T10:28:22.712+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_dag.py took 0.119 seconds
+[2025-08-21T10:28:53.108+0000] {processor.py:157} INFO - Started process (PID=585) to work on /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:28:53.109+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_dag.py for tasks to queue
+[2025-08-21T10:28:53.111+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:28:53.110+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:28:53.137+0000] {processor.py:839} INFO - DAG(s) dict_keys(['stock_fetch_pipeline']) retrieved from /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:28:53.178+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:28:53.178+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-08-21T10:28:53.196+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:28:53.196+0000] {dag.py:3696} INFO - Setting next_dagrun for stock_fetch_pipeline to 2025-08-21T10:00:00+00:00, run_after=2025-08-21T11:00:00+00:00
+[2025-08-21T10:28:53.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_dag.py took 0.105 seconds
+[2025-08-21T10:29:23.616+0000] {processor.py:157} INFO - Started process (PID=590) to work on /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:29:23.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/stock_dag.py for tasks to queue
+[2025-08-21T10:29:23.619+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:29:23.619+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:29:23.651+0000] {processor.py:839} INFO - DAG(s) dict_keys(['stock_fetch_pipeline']) retrieved from /opt/airflow/dags/stock_dag.py
+[2025-08-21T10:29:23.697+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:29:23.697+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-08-21T10:29:23.714+0000] {logging_mixin.py:151} INFO - [2025-08-21T10:29:23.714+0000] {dag.py:3696} INFO - Setting next_dagrun for stock_fetch_pipeline to 2025-08-21T10:00:00+00:00, run_after=2025-08-21T11:00:00+00:00
+[2025-08-21T10:29:23.726+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/stock_dag.py took 0.122 seconds
