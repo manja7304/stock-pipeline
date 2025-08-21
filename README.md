@@ -113,6 +113,35 @@ Table: `public.stocks`
 - `volume` BIGINT
 - `raw` JSONB (original provider payload)
 
+### Architecture / Flow
+```mermaid
+flowchart TD
+  A[User or Schedule] --> B[Airflow Scheduler]
+  B --> C{{DAG: stock_fetch_pipeline}}
+  C --> D[BashOperator\npython /opt/airflow/scripts/fetch_stock.py]
+  D --> E[Load config from .env]
+  E --> F[Fetch from Alpha Vantage\nfunction=GLOBAL_QUOTE]
+  F --> G[Normalize JSON\nextract_from_alpha]
+  G --> H[Bulk insert\nupsert_batch with execute_values]
+  H --> I[(Postgres\npublic.stocks)]
+
+  subgraph Runtime
+    B
+    C
+    D
+  end
+
+  subgraph Code
+    E
+    F
+    G
+    H
+  end
+
+  style I fill:#e8f5e9,stroke:#2e7d32
+  style F fill:#e3f2fd,stroke:#1565c0
+```
+
 ### Security
 - `.env` is ignored by git. Do not commit secrets.
 
